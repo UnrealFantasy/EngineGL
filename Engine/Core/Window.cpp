@@ -81,3 +81,4 @@ bool Window::input(int key)
 {
     return glfwGetKey(handle, key) == GLFW_PRESS;
 }
+
