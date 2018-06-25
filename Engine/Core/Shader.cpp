@@ -102,3 +102,4 @@ unsigned int Shader::location(const char* uniform)
 {
     return glGetUniformLocation(programID, uniform);
 }
+
